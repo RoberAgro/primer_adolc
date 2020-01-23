@@ -3,15 +3,6 @@
 
 
 
-<p style="margin-bottom:0cm;"> </p>
-<p align="center">
-        <img src="./figures/derivative_def.svg" height="250" width="500"/>
-        &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="./figures/cpp_logo.svg" height="250" width="250"/>
-</p>
-<p style="margin-bottom:1cm;"> </p>
-
-
 
 
 
@@ -25,6 +16,19 @@ This is an unofficial repository that aims to provide a primer on how to install
 The numerical values of derivative vectors are obtained free of truncation errors at a small multiple of the run time and randomly accessed memory of the given function evaluation program.
 
 In short, ADOL-C is a powerful C++ library that allows to compute first and higher order derivatives of your C/C++ code in forward and reverse modes This information is essential for gradient-based optimization in fields such as earodynamic shape optimization and model predictive control.
+
+
+
+<p style="margin-bottom:0cm;"> </p>
+<p align="center">
+        <img src="./figures/derivative_def.svg" height="250" width="500"/>
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        <img src="./figures/cpp_logo.svg" height="250" width="250"/>
+</p>
+<p style="margin-bottom:1cm;"> </p>
+
+
+
 
 ## Contents
 
