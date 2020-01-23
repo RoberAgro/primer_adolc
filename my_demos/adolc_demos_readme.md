@@ -6,37 +6,13 @@ We suggest this order to explore the demos:
 
 
 
-###1. demo_siso
+### 1. demo_siso
 
 This example shows how to compute the first derivatives of a single-input single-output function in forward and reverse modes.
 The example selected is the simple scalar function:
 
-<html>
-<head>
-<title>LaTeX4Web 1.4 OUTPUT</title>
-<style type="text/css">
-<!--
- body {color: black;  background:"#FFCC99";  }
- div.p { margin-top: 7pt;}
- td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
- td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
- td div.norm {line-height:normal;}
- td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
- td.sqrt {border-top:2 solid black;
-          border-left:2 solid black;
-          border-bottom:none;
-          border-right:none;}
- table.sqrt {border-top:2 solid black;
-             border-left:2 solid black;
-             border-bottom:none;
-             border-right:none;}
--->
-</style>
-</head>
-<body>
-f(x) = e<sup>x</sup> </body>
-</html>
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;e^{x}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x)&space;=&space;e^{x}" title="f(x) = e^{x}" /></a>
 
 Functions used:
 
@@ -49,11 +25,11 @@ Functions used:
 This example shows how to compute the first derivatives of a single-input multiple-output function in forward and reverse modes.
 The example selected is the vector function given by the unit-radius helix given by:
 
-\\[ f(t) = [\cos(t), \; \sin(t), \; t ]   \\] 
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(t)&space;=&space;[\cos(t),&space;\;&space;\sin(t),&space;\;&space;t&space;]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(t)&space;=&space;[\cos(t),&space;\;&space;\sin(t),&space;\;&space;t&space;]" title="f(t) = [\cos(t), \; \sin(t), \; t ]" /></a>
 
 with tangent vector
 
-\\[ f'(t) = [-\sin(t), \; \cos(t), \; 1 ]   \\] 
+<a href="https://www.codecogs.com/eqnedit.php?latex=[&space;f'(t)&space;=&space;[-\sin(t),&space;\;&space;\cos(t),&space;\;&space;1&space;]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?[&space;f'(t)&space;=&space;[-\sin(t),&space;\;&space;\cos(t),&space;\;&space;1&space;]" title="[ f'(t) = [-\sin(t), \; \cos(t), \; 1 ]" /></a>
 
 Functions used:
 
