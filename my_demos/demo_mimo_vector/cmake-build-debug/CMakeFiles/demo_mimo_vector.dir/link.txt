@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/demo_mimo_vector.dir/main.cpp.o  -o demo_mimo_vector 

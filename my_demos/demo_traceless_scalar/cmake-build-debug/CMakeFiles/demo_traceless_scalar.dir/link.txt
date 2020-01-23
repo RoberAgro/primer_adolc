@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/demo_traceless_scalar.dir/main.cpp.o  -o demo_traceless_scalar 

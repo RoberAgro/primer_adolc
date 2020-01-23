@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector/main.cpp
+iostream
+-
+iomanip
+-
+chrono
+-
+cmath
+-
+adolc/adtl.h
+-
+
