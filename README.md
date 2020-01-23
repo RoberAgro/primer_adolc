@@ -15,14 +15,13 @@ In short, ADOL-C is a powerful C++ library that allows to compute first and high
 
 The repository is organized as follows:
 
-- [Detailed installation instructions](./adolc_installation) for Linux
+- [Detailed installation instructions](./adolc_installation.md) for Linux
 - [A minimum working example](./adolc_minimum_working_example.md) to check if the installation was sucessful
 - [A step-by-step explanation](./adolc_minimum_working_example_explanation.md) of the minimum working example to help you understand how ADOL-C works
-- [A set of demonstration projects](/my_demos) showing some of the ADOL-C capabilities including the
+- [A set of demonstration projects](/my_demos/adolc_demos_readme.md) showing some of the ADOL-C capabilities including the
 	- Easy-to-use drivers for optimization
 	- Trace_based forward and reverse functions
 	- The traceless forward mode functions
-	
 	
 
 
