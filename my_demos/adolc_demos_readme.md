@@ -1,6 +1,7 @@
 # ADOL-C demos guide
 
 This directory contains some well-documented demonstration projects to get started with ADOL-C.
+
 We suggest this order to explore the demos:
 
 
@@ -10,8 +11,17 @@ We suggest this order to explore the demos:
 This example shows how to compute the first derivatives of a single-input single-output function in forward and reverse modes.
 The example selected is the simple scalar function:
 
-\\[f(x) = e^x \\]
-
+<math display="block">
+  <mi>f</mi>
+  <mo stretchy="false">(</mo>
+  <mi>x</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <msup>
+    <mi>e</mi>
+    <mi>x</mi>
+  </msup>
+</math>
 
 Functions used:
 
