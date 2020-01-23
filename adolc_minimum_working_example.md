@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This decument describes how to set up an compile a small, yet complete, C++ project using ADOL-C to check if the installation was successful.
+This decument describes how to set up and compile a small, yet complete, C++ project using ADOL-C to check if the installation was successful.
 
 ## Creating the CMake project
 
