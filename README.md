@@ -25,6 +25,15 @@ The repository is organized as follows:
 	
 
 
+<p style="margin-bottom:0cm;"> </p>
+<p align="center">
+        <img src="./figures/derivative_def.svg" height="300" width="300"/>
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        <img src="./figures/cpp_logo.svg" height="350" width="350"/>
+</p>
+<p style="margin-bottom:1cm;"> </p>
+
+
 
 **We hope that this repo can be useful to ADOL-C newcomers!**
 
