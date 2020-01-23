@@ -1,5 +1,20 @@
 # A primer on ADOL-C
 
+
+
+
+<p style="margin-bottom:0cm;"> </p>
+<p align="center">
+        <img src="./figures/derivative_def.svg" height="500" width="500"/>
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        <img src="./figures/cpp_logo.svg" height="250" width="250"/>
+</p>
+<p style="margin-bottom:1cm;"> </p>
+
+
+
+
+
 ## Introduction
 
 This is an unofficial repository that aims to provide a primer on how to install and use the C++ library ADOL-C.
@@ -23,15 +38,6 @@ The repository is organized as follows:
 	- Trace_based forward and reverse functions
 	- The traceless forward mode functions
 	
-
-
-<p style="margin-bottom:0cm;"> </p>
-<p align="center">
-        <img src="./figures/derivative_def.svg" height="300" width="300"/>
-        &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="./figures/cpp_logo.svg" height="350" width="350"/>
-</p>
-<p style="margin-bottom:1cm;"> </p>
 
 
 
