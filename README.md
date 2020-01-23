@@ -15,7 +15,7 @@ This is an unofficial repository that aims to provide a primer on how to install
 > The package ADOL-C (Automatic Differentiation by OverLoading in C++) facilitates the evaluation of first and higher derivatives of vector functions that are defined by computer programs written in C or C++.
 The numerical values of derivative vectors are obtained free of truncation errors at a small multiple of the run time and randomly accessed memory of the given function evaluation program.
 
-In short, ADOL-C is a powerful C++ library that allows to compute first and higher order derivatives of your C/C++ code in forward and reverse modes This information is essential for gradient-based optimization in fields such as earodynamic shape optimization and model predictive control.
+In short, ADOL-C is a powerful C++ library that allows to compute first and higher order derivatives of your C/C++ code in forward and reverse modes This information is essential for gradient-based optimization in fields such as aerodynamic shape optimization or model predictive control.
 
 
 
