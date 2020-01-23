@@ -77,9 +77,10 @@ The example selected is the parametrization of a unit-radius sphere:
 
 with Jacobian matrix
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\nabla&space;f(u,v)&space;=\left&space;[\frac{\partial&space;f}{\partial&space;u},&space;\,&space;\frac{\partial&space;f}{\partial&space;u}\right]^{\mathrm{T}}&space;\quad&space;\text{with}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\sin(u)\,&space;\cos(v),&space;\;&space;\cos(u)&space;\,&space;\cos(v),&space;\;&space;0)&space;]&space;\quad&space;\text{and}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\cos(u)\,&space;\sin(v),&space;\;&space;-\sin(u)&space;\,&space;\sin(v),&space;\;&space;\cos(v)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\nabla&space;f(u,v)&space;=\left&space;[\frac{\partial&space;f}{\partial&space;u},&space;\,&space;\frac{\partial&space;f}{\partial&space;u}\right]^{\mathrm{T}}&space;\quad&space;\text{with}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\sin(u)\,&space;\cos(v),&space;\;&space;\cos(u)&space;\,&space;\cos(v),&space;\;&space;0)&space;]&space;\quad&space;\text{and}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\cos(u)\,&space;\sin(v),&space;\;&space;-\sin(u)&space;\,&space;\sin(v),&space;\;&space;\cos(v)" title="\nabla f(u,v) =\left [\frac{\partial f}{\partial u}, \, \frac{\partial f}{\partial u}\right]^{\mathrm{T}} \quad \text{with} \quad \frac{\partial f}{\partial u} = [-\sin(u)\, \cos(v), \; \cos(u) \, \cos(v), \; 0) ] \quad \text{and} \quad \frac{\partial f}{\partial u} = [-\cos(u)\, \sin(v), \; -\sin(u) \, \sin(v), \; \cos(v)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\nabla&space;f(u,v)&space;=\left&space;[\frac{\partial&space;f}{\partial&space;u},&space;\,&space;\frac{\partial&space;f}{\partial&space;u}\right]^{\mathrm{T}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\nabla&space;f(u,v)&space;=\left&space;[\frac{\partial&space;f}{\partial&space;u},&space;\,&space;\frac{\partial&space;f}{\partial&space;u}\right]^{\mathrm{T}}" title="\nabla f(u,v) =\left [\frac{\partial f}{\partial u}, \, \frac{\partial f}{\partial u}\right]^{\mathrm{T}}" /></a>
 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\sin(u)\,&space;\cos(v),&space;\;&space;\cos(u)&space;\,&space;\cos(v),&space;\;&space;0)&space;]&space;\quad&space;\text{and}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\cos(u)\,&space;\sin(v),&space;\;&space;-\sin(u)&space;\,&space;\sin(v),&space;\;&space;\cos(v)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\sin(u)\,&space;\cos(v),&space;\;&space;\cos(u)&space;\,&space;\cos(v),&space;\;&space;0)&space;]&space;\quad&space;\text{and}&space;\quad&space;\frac{\partial&space;f}{\partial&space;u}&space;=&space;[-\cos(u)\,&space;\sin(v),&space;\;&space;-\sin(u)&space;\,&space;\sin(v),&space;\;&space;\cos(v)" title="\quad \frac{\partial f}{\partial u} = [-\sin(u)\, \cos(v), \; \cos(u) \, \cos(v), \; 0) ] \quad \text{and} \quad \frac{\partial f}{\partial u} = [-\cos(u)\, \sin(v), \; -\sin(u) \, \sin(v), \; \cos(v)" /></a>
  
 Functions used:
 
@@ -110,11 +111,9 @@ This example compares three different ways to compute the first derivatives of a
 
 The choice of function is a n-dimensional exponential function with simple analytic derivatives that can be used to verify the AD results
 
-\\[  f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \\]
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
 
-\\[ \frac{\partial f}{\partial x_{n}} = \frac{1}{n} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \\]
-
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;f}{\partial&space;x_{n}}&space;=&space;\frac{1}{n}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{\partial&space;f}{\partial&space;x_{n}}&space;=&space;\frac{1}{n}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="\frac{\partial f}{\partial x_{n}} = \frac{1}{n} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
 
 The example shows that the forward vector mode is superior to the forward scalar mode when there is more than one independent variable because it allows to process the AD-trace only once and reduces the computational time.
 In addition, the example shows that the reverse AD is independent of the number of variables and should be the preferred choice to compute the derivatives of a multiple-input, single-output function.
@@ -133,9 +132,9 @@ Functions used:
 This example shows how to compute the first and higher order derivatives of a multiple-input single-output function in forward and reverse modes.
 The example selected is a n-dimensional exponential function with simple analytic derivatives that can be used to verify the AD results
 
-\\[  f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \\]
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
 
-\\[ \frac{\partial f}{\partial x_{n}} = \frac{1}{n} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}  \qquad \dots \qquad \frac{\partial^{k} f}{\partial x_{n}^{k} } = \frac{1}{n^{k}} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}\\]
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;f}{\partial&space;x_{n}}&space;=&space;\frac{1}{n}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}&space;\qquad&space;\dots&space;\qquad&space;\frac{\partial^{k}&space;f}{\partial&space;x_{n}^{k}&space;}&space;=&space;\frac{1}{n^{k}}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{\partial&space;f}{\partial&space;x_{n}}&space;=&space;\frac{1}{n}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}&space;\qquad&space;\dots&space;\qquad&space;\frac{\partial^{k}&space;f}{\partial&space;x_{n}^{k}&space;}&space;=&space;\frac{1}{n^{k}}&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="\frac{\partial f}{\partial x_{n}} = \frac{1}{n} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \qquad \dots \qquad \frac{\partial^{k} f}{\partial x_{n}^{k} } = \frac{1}{n^{k}} e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
 
 
 Functions used:
@@ -149,7 +148,7 @@ The functions to compute higher order derivatives in scalar mode, `hos_forward()
 
 This example shows how to compute the first derivatives of the n-dimensional exponential function
 
-\\[  f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \\]
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
 
 using the traceless variant of ADOL-C in scalar mode
 
@@ -158,6 +157,7 @@ using the traceless variant of ADOL-C in scalar mode
 
 This example shows how to compute the first derivatives of the n-dimensional exponential function
 
-\\[  f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}} \\]
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x_{0},&space;x_{1},&space;...,&space;x_{n-1})&space;=&space;e^{\frac{1}{n}&space;\sum_{i=0}^{n-1}&space;x_{n}}" title="f(x_{0}, x_{1}, ..., x_{n-1}) = e^{\frac{1}{n} \sum_{i=0}^{n-1} x_{n}}" /></a>
+
 
 using the traceless variant of ADOL-C in vector mode
