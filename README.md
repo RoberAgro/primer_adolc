@@ -5,7 +5,7 @@
 
 <p style="margin-bottom:0cm;"> </p>
 <p align="center">
-        <img src="./figures/derivative_def.svg" height="500" width="500"/>
+        <img src="./figures/derivative_def.svg" height="250" width="500"/>
         &emsp; &emsp; &emsp; &emsp; &emsp;
         <img src="./figures/cpp_logo.svg" height="250" width="250"/>
 </p>
