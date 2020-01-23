@@ -1,7 +1,7 @@
 # Understanding the minimum working example
 
 This documents provides an step-by-step explanation of the [minimum working example](./adolc_minimum_working_example.md) that may be useful for ADOL-C newcomers.
-We assume that we have already created the CMake project (and the corresponding `CMakeLists.txt` file) and now we want to write a small C++ program to compute the derivative of <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)=e^x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?f(x)=e^x" title="f(x)=e^x" /></a> using ADOL-C.
+We assume that we have already created the CMake project (and the corresponding `CMakeLists.txt` file) and now we want to write a small C++ program to compute the derivative of f(x)=e<sup>x</sup>  using ADOL-C.
 The first step is to load the libraries used in our project, including (of course) ADOL-C:
 
 	// Include libraries
