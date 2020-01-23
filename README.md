@@ -20,6 +20,15 @@ In short, ADOL-C is a powerful C++ library that allows to compute first and high
 
 
 
+<p style="margin-bottom:0cm;"> </p>
+<p align="center">
+        <img src="./figures/derivative_def.svg" height="250" width="500"/>
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        <img src="./figures/cpp_logo.svg" height="250" width="250"/>
+</p>
+<p style="margin-bottom:1cm;"> </p>
+
+
 
 
 ## Contents
@@ -42,13 +51,4 @@ The repository is organized as follows:
 Roberto Agromayor
 Thursday, 23. January 2020 05:06PM 
 
-
-
-<p style="margin-bottom:0cm;"> </p>
-<p align="center">
-        <img src="./figures/derivative_def.svg" height="250" width="500"/>
-        &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="./figures/cpp_logo.svg" height="250" width="250"/>
-</p>
-<p style="margin-bottom:1cm;"> </p>
 
