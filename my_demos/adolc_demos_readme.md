@@ -11,17 +11,32 @@ We suggest this order to explore the demos:
 This example shows how to compute the first derivatives of a single-input single-output function in forward and reverse modes.
 The example selected is the simple scalar function:
 
-<math display="block">
-  <mi>f</mi>
-  <mo stretchy="false">(</mo>
-  <mi>x</mi>
-  <mo stretchy="false">)</mo>
-  <mo>=</mo>
-  <msup>
-    <mi>e</mi>
-    <mi>x</mi>
-  </msup>
-</math>
+<html>
+<head>
+<title>LaTeX4Web 1.4 OUTPUT</title>
+<style type="text/css">
+<!--
+ body {color: black;  background:"#FFCC99";  }
+ div.p { margin-top: 7pt;}
+ td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+ td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+ td div.norm {line-height:normal;}
+ td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+ td.sqrt {border-top:2 solid black;
+          border-left:2 solid black;
+          border-bottom:none;
+          border-right:none;}
+ table.sqrt {border-top:2 solid black;
+             border-left:2 solid black;
+             border-bottom:none;
+             border-right:none;}
+-->
+</style>
+</head>
+<body>
+f(x) = e<sup>x</sup> </body>
+</html>
+
 
 Functions used:
 
