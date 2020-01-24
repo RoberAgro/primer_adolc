@@ -13,7 +13,7 @@ To install this package type the following commands in your terminal
 
 ## Installing ADOL-C
 
-ADOL-C can be compiled using the gnu triplet:
+ADOL-C can be compiled using the [usual gnu triplet](https://www.howtogeek.com/105413/how-to-compile-and-install-from-source-on-ubuntu/):
 
 > configure -> make -> make install
 
