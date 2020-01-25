@@ -1,11 +1,5 @@
 # A primer on ADOL-C
 
-
-
-
-
-
-
 ## Introduction
 
 This is an unofficial repository that aims to provide a primer on how to install and use the C++ library ADOL-C.
@@ -16,8 +10,6 @@ This is an unofficial repository that aims to provide a primer on how to install
 The numerical values of derivative vectors are obtained free of truncation errors at a small multiple of the run time and randomly accessed memory of the given function evaluation program.
 
 In short, ADOL-C is a powerful C++ library that allows to compute first and higher order derivatives of your C/C++ code in forward and reverse modes This information is essential for gradient-based optimization in fields such as aerodynamic shape optimization or model predictive control.
-
-
 
 
 <p style="margin-bottom:0cm;"> </p>

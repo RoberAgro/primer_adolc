@@ -1,6 +1,6 @@
 # ADOL-C Installation
 
-This document contrains a detailed explanation of how to install the ADOL-C library in Linux.
+This document provides a detailed explanation of how to install the ADOL-C library in Linux.
 
 ## Requirements
 
