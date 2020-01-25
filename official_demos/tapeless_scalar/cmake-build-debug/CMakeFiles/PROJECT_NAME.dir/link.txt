@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -g   CMakeFiles/PROJECT_NAME.dir/tapeless_scalar.cpp.o  -o PROJECT_NAME  -L/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -Wl,-rpath,/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -ladolc 
