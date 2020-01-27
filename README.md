@@ -30,7 +30,7 @@ The repository is organized as follows:
 - [Detailed installation instructions](docs/adolc_installation.md) for Linux
 - [A minimum working example](docs/adolc_minimum_working_example.md) to check if the installation was sucessful
 - [A step-by-step explanation](docs/adolc_minimum_working_example_explanation.md) of the minimum working example to help you understand how ADOL-C works
-- [A set of demonstration projects](adolc_demos/adolc_demos_readme.md) showing some of the ADOL-C capabilities including the
+- [A set of demonstration projects](adolc_demos/) showing some of the ADOL-C capabilities including the
 	- Easy-to-use drivers for optimization
 	- Trace_based forward and reverse functions
 	- The traceless forward mode functions
