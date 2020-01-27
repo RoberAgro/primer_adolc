@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_scalar/main.cpp" "/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_scalar/cmake-build-debug/CMakeFiles/PROJECT_NAME.dir/main.cpp.o"
+  "/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_scalar/main.cpp" "/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_scalar/cmake-build-debug/CMakeFiles/PROJECT_NAME.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

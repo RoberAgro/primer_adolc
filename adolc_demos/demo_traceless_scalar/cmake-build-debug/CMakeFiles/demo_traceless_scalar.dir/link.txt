@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/demo_traceless_scalar.dir/main.cpp.o  -o demo_traceless_scalar 
+/usr/bin/c++  -g   CMakeFiles/demo_traceless_scalar.dir/main.cpp.o  -o demo_traceless_scalar  -L/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -Wl,-rpath,/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -ladolc 

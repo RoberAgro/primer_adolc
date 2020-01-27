@@ -1,4 +1,4 @@
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug
+-- Build files have been written to: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,30 +23,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d418e/fast 
-/usr/bin/make -f CMakeFiles/cmTC_d418e.dir/build.make CMakeFiles/cmTC_d418e.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d418e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d418e.dir/testCCompiler.c.o   -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d418e
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d418e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d418e.dir/testCCompiler.c.o  -o cmTC_d418e 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_6339c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6339c.dir/build.make CMakeFiles/cmTC_6339c.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6339c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6339c.dir/testCCompiler.c.o   -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6339c
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6339c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6339c.dir/testCCompiler.c.o  -o cmTC_6339c 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_56f65/fast 
-/usr/bin/make -f CMakeFiles/cmTC_56f65.dir/build.make CMakeFiles/cmTC_56f65.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o   -c /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_02639/fast 
+/usr/bin/make -f CMakeFiles/cmTC_02639.dir/build.make CMakeFiles/cmTC_02639.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o   -c /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -55,8 +55,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccjhReKe.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccGRAWvf.s
 GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -76,15 +76,15 @@ GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: fa57db1fe2d756b22d454aa8428fd3bd
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o /tmp/ccjhReKe.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o /tmp/ccGRAWvf.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_56f65
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f65.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o  -o cmTC_56f65 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_02639
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02639.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o  -o cmTC_02639 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -96,10 +96,10 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56f65' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccuupSi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56f65 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56f65' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02639' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch4jVio.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02639 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02639' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -121,13 +121,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_56f65/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_56f65.dir/build.make CMakeFiles/cmTC_56f65.dir/build]
-  ignore line: [make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o   -c /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_02639/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_02639.dir/build.make CMakeFiles/cmTC_02639.dir/build]
+  ignore line: [make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o   -c /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -136,8 +136,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccjhReKe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccGRAWvf.s]
   ignore line: [GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -157,15 +157,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: fa57db1fe2d756b22d454aa8428fd3bd]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o /tmp/ccjhReKe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o /tmp/ccGRAWvf.s]
   ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_56f65]
-  ignore line: [/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f65.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o  -o cmTC_56f65 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_02639]
+  ignore line: [/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02639.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o  -o cmTC_02639 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -177,13 +177,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56f65' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccuupSi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56f65 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02639' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch4jVio.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02639 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccuupSi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cch4jVio.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -202,7 +202,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_56f65] ==> ignore
+    arg [cmTC_02639] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -214,7 +214,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_56f65.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_02639.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -244,17 +244,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_72de6/fast 
-/usr/bin/make -f CMakeFiles/cmTC_72de6.dir/build.make CMakeFiles/cmTC_72de6.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_72de6.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_72de6.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_72de6
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72de6.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_72de6.dir/feature_tests.c.o  -o cmTC_72de6 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_d39b7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d39b7.dir/build.make CMakeFiles/cmTC_d39b7.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d39b7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_d39b7.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d39b7
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d39b7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d39b7.dir/feature_tests.c.o  -o cmTC_d39b7 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -264,17 +264,17 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ecee0/fast 
-/usr/bin/make -f CMakeFiles/cmTC_ecee0.dir/build.make CMakeFiles/cmTC_ecee0.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ecee0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ecee0.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ecee0
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecee0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ecee0.dir/feature_tests.c.o  -o cmTC_ecee0 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_6e47a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6e47a.dir/build.make CMakeFiles/cmTC_6e47a.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e47a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_6e47a.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6e47a
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e47a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6e47a.dir/feature_tests.c.o  -o cmTC_6e47a 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -284,17 +284,17 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4dbf4/fast 
-/usr/bin/make -f CMakeFiles/cmTC_4dbf4.dir/build.make CMakeFiles/cmTC_4dbf4.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4dbf4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4dbf4.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4dbf4
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dbf4.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_4dbf4.dir/feature_tests.c.o  -o cmTC_4dbf4 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_4e419/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4e419.dir/build.make CMakeFiles/cmTC_4e419.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e419.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4e419.dir/feature_tests.c.o   -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4e419
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e419.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4e419.dir/feature_tests.c.o  -o cmTC_4e419 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -302,27 +302,27 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e6c91/fast 
-/usr/bin/make -f CMakeFiles/cmTC_e6c91.dir/build.make CMakeFiles/cmTC_e6c91.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e6c91.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e6c91.dir/testCXXCompiler.cxx.o -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e6c91
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c91.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_e6c91.dir/testCXXCompiler.cxx.o  -o cmTC_e6c91 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_e1b65/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e1b65.dir/build.make CMakeFiles/cmTC_e1b65.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1b65.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e1b65.dir/testCXXCompiler.cxx.o -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e1b65
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1b65.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e1b65.dir/testCXXCompiler.cxx.o  -o cmTC_e1b65 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0e842/fast 
-/usr/bin/make -f CMakeFiles/cmTC_0e842.dir/build.make CMakeFiles/cmTC_0e842.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -c /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_60778/fast 
+/usr/bin/make -f CMakeFiles/cmTC_60778.dir/build.make CMakeFiles/cmTC_60778.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -c /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -331,8 +331,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccYowWDR.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccX5sHug.s
 GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -356,15 +356,15 @@ GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 38816e3807cdcb3c59571e251bd6c090
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYowWDR.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccX5sHug.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_0e842
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e842.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e842 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_60778
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60778.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_60778 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -376,10 +376,10 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e842' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEbaEXU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0e842 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e842' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60778' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUnG5Lm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_60778 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60778' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -407,13 +407,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_0e842/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0e842.dir/build.make CMakeFiles/cmTC_0e842.dir/build]
-  ignore line: [make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -c /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_60778/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_60778.dir/build.make CMakeFiles/cmTC_60778.dir/build]
+  ignore line: [make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -c /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -422,8 +422,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccYowWDR.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccX5sHug.s]
   ignore line: [GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04.1) version 7.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -447,15 +447,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 38816e3807cdcb3c59571e251bd6c090]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYowWDR.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccX5sHug.s]
   ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_0e842]
-  ignore line: [/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e842.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e842 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_60778]
+  ignore line: [/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60778.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_60778 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -467,13 +467,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e842' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEbaEXU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0e842 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60778' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUnG5Lm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_60778 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccEbaEXU.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUnG5Lm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -492,7 +492,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0e842] ==> ignore
+    arg [cmTC_60778] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -504,7 +504,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_0e842.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_60778.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -530,17 +530,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c1d2c/fast 
-/usr/bin/make -f CMakeFiles/cmTC_c1d2c.dir/build.make CMakeFiles/cmTC_c1d2c.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1d2c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c1d2c.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c1d2c
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1d2c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c1d2c.dir/feature_tests.cxx.o  -o cmTC_c1d2c 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2abaf/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2abaf.dir/build.make CMakeFiles/cmTC_2abaf.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2abaf.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_2abaf.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2abaf
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abaf.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2abaf.dir/feature_tests.cxx.o  -o cmTC_2abaf 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -603,17 +603,17 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_10626/fast 
-/usr/bin/make -f CMakeFiles/cmTC_10626.dir/build.make CMakeFiles/cmTC_10626.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_10626.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_10626.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_10626
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10626.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_10626.dir/feature_tests.cxx.o  -o cmTC_10626 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_4f006/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4f006.dir/build.make CMakeFiles/cmTC_4f006.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f006.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4f006.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4f006
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f006.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4f006.dir/feature_tests.cxx.o  -o cmTC_4f006 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -676,17 +676,17 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9e5c/fast 
-/usr/bin/make -f CMakeFiles/cmTC_b9e5c.dir/build.make CMakeFiles/cmTC_b9e5c.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b9e5c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b9e5c.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b9e5c
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e5c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b9e5c.dir/feature_tests.cxx.o  -o cmTC_b9e5c 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_ae8df/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ae8df.dir/build.make CMakeFiles/cmTC_ae8df.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae8df.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ae8df.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ae8df
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae8df.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ae8df.dir/feature_tests.cxx.o  -o cmTC_ae8df 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -749,17 +749,17 @@ make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_de
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8cbcd/fast 
-/usr/bin/make -f CMakeFiles/cmTC_8cbcd.dir/build.make CMakeFiles/cmTC_8cbcd.dir/build
-make[1]: Entering directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8cbcd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8cbcd.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8cbcd
-/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cbcd.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8cbcd.dir/feature_tests.cxx.o  -o cmTC_8cbcd 
-make[1]: Leaving directory '/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_3cdab/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3cdab.dir/build.make CMakeFiles/cmTC_3cdab.dir/build
+make[1]: Entering directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cdab.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3cdab.dir/feature_tests.cxx.o -c /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3cdab
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cdab.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3cdab.dir/feature_tests.cxx.o  -o cmTC_3cdab 
+make[1]: Leaving directory '/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_mimo_scalar/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

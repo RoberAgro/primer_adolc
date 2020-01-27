@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/PROJECT_NAME.dir/DependInfo.cmake"
+  "CMakeFiles/adolc_minimum_working_example.dir/DependInfo.cmake"
   )

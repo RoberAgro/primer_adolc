@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order
+CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug
+CMAKE_BINARY_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/CMakeFiles /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/CMakeFiles /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PROJECT_NAME
+# Target rules for targets named demo_higher_order
 
 # Build rule for target.
-PROJECT_NAME: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PROJECT_NAME
-.PHONY : PROJECT_NAME
+demo_higher_order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_higher_order
+.PHONY : demo_higher_order
 
 # fast build rule for target.
-PROJECT_NAME/fast:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/build
-.PHONY : PROJECT_NAME/fast
+demo_higher_order/fast:
+	$(MAKE) -f CMakeFiles/demo_higher_order.dir/build.make CMakeFiles/demo_higher_order.dir/build
+.PHONY : demo_higher_order/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/demo_higher_order.dir/build.make CMakeFiles/demo_higher_order.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/demo_higher_order.dir/build.make CMakeFiles/demo_higher_order.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/demo_higher_order.dir/build.make CMakeFiles/demo_higher_order.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... PROJECT_NAME"
+	@echo "... demo_higher_order"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

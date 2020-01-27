@@ -1,4 +1,4 @@
-# Install script for directory: /home/robertoa/my_GIT/primer_adolc/my_demos/adolc_minimum_working_example
+# Install script for directory: /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robertoa/my_GIT/primer_adolc/my_demos/adolc_minimum_working_example/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

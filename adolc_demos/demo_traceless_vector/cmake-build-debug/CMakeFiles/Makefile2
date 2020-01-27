@@ -50,54 +50,54 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/robertoa/my_software/JetBrains/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector
+CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_vector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector/cmake-build-debug
+CMAKE_BINARY_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_vector/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/PROJECT_NAME.dir
+# Target rules for target CMakeFiles/demo_traceless_vector.dir
 
 # All Build rule for target.
-CMakeFiles/PROJECT_NAME.dir/all:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/depend
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PROJECT_NAME"
-.PHONY : CMakeFiles/PROJECT_NAME.dir/all
+CMakeFiles/demo_traceless_vector.dir/all:
+	$(MAKE) -f CMakeFiles/demo_traceless_vector.dir/build.make CMakeFiles/demo_traceless_vector.dir/depend
+	$(MAKE) -f CMakeFiles/demo_traceless_vector.dir/build.make CMakeFiles/demo_traceless_vector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target demo_traceless_vector"
+.PHONY : CMakeFiles/demo_traceless_vector.dir/all
 
 # Include target in all.
-all: CMakeFiles/PROJECT_NAME.dir/all
+all: CMakeFiles/demo_traceless_vector.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PROJECT_NAME.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PROJECT_NAME.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/PROJECT_NAME.dir/rule
+CMakeFiles/demo_traceless_vector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo_traceless_vector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_traceless_vector/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/demo_traceless_vector.dir/rule
 
 # Convenience name for target.
-PROJECT_NAME: CMakeFiles/PROJECT_NAME.dir/rule
+demo_traceless_vector: CMakeFiles/demo_traceless_vector.dir/rule
 
-.PHONY : PROJECT_NAME
-
-# clean rule for target.
-CMakeFiles/PROJECT_NAME.dir/clean:
-	$(MAKE) -f CMakeFiles/PROJECT_NAME.dir/build.make CMakeFiles/PROJECT_NAME.dir/clean
-.PHONY : CMakeFiles/PROJECT_NAME.dir/clean
+.PHONY : demo_traceless_vector
 
 # clean rule for target.
-clean: CMakeFiles/PROJECT_NAME.dir/clean
+CMakeFiles/demo_traceless_vector.dir/clean:
+	$(MAKE) -f CMakeFiles/demo_traceless_vector.dir/build.make CMakeFiles/demo_traceless_vector.dir/clean
+.PHONY : CMakeFiles/demo_traceless_vector.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/demo_traceless_vector.dir/clean
 
 .PHONY : clean
 

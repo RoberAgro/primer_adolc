@@ -2,19 +2,17 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Set project name
-project(demo_simo)
+set(project_name "demo_siso")
+project(${project_name})
 
-# Set C++ standard
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") # enable C++11 standard
-
-# Set path to header files directories (Adol-C, OpenCascade, etc)
+# Set path to header files directories
 include_directories("$ENV{ADOLC_INCLUDE}")
 
-# Set path to executable directories (Adol-C, OpenCascade, etc)
+# Set path to executable directories
 link_directories("$ENV{ADOLC_LIB}")
 
 # Add source files to compile to the project
-add_executable(PROJECT_NAME main.cpp)
+add_executable(${project_name} main.cpp)
 
-# Add external libraries (Adol-C, OpenCascade, etc)
-target_link_libraries(PROJECT_NAME -ladolc)
+# Add external libraries
+target_link_libraries(${project_name} -ladolc)

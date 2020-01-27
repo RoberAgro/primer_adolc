@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug"/>
+				<Option working_dir="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug"/>
+				<Option working_dir="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PROJECT_NAME">
-				<Option output="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/PROJECT_NAME" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug"/>
+			<Target title="demo_higher_order">
+				<Option output="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/demo_higher_order" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -45,15 +45,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJECT_NAME"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_higher_order"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PROJECT_NAME/fast">
-				<Option output="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/PROJECT_NAME" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug"/>
+			<Target title="demo_higher_order/fast">
+				<Option output="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/demo_higher_order" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,27 +69,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJECT_NAME/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_higher_order/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug"/>
+				<Option working_dir="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/main.cpp">
-			<Option target="PROJECT_NAME"/>
+		<Unit filename="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/main.cpp">
+			<Option target="demo_higher_order"/>
 		</Unit>
-		<Unit filename="/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_higher_order/CMakeLists.txt">
+		<Unit filename="/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_higher_order/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-# Install script for directory: /home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_large_problem
+# Install script for directory: /home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_large_problem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robertoa/my_GIT/my_cpp_demos/demos_adolc/my_demos/demo_large_problem/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robertoa/my_GIT/primer_adolc/adolc_demos/demo_large_problem/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

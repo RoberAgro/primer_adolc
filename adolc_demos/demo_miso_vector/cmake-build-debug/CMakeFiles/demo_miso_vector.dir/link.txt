@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/demo_miso_vector.dir/main.cpp.o  -o demo_miso_vector 
+/usr/bin/c++  -g   CMakeFiles/demo_miso_vector.dir/main.cpp.o  -o demo_miso_vector  -L/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -Wl,-rpath,/home/robertoa/my_software/adolc-2.7.0/adolc_base/lib64 -ladolc 
