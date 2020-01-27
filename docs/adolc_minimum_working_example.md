@@ -18,7 +18,8 @@ In order to compile a C++ project using CMake from an IDE (such as CLion or Visu
 	cmake_minimum_required(VERSION 3.14)
 
 	# Set project name
-	project(adolc_mwe)
+	set(project_name "adolc_minimum_working_example")
+	project(${project_name})
 
 	# Set path to header files directories
 	include_directories("$ENV{ADOLC_INCLUDE}")
@@ -27,10 +28,11 @@ In order to compile a C++ project using CMake from an IDE (such as CLion or Visu
 	link_directories("$ENV{ADOLC_LIB}")
 
 	# Add source files to compile to the project
-	add_executable(PROJECT_NAME main.cpp)
+	add_executable(${project_name} main.cpp)
 
 	# Add external libraries
-	target_link_libraries(PROJECT_NAME -ladolc)
+	target_link_libraries(${project_name} -ladolc)
+
 
 
 
