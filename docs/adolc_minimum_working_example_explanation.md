@@ -24,11 +24,11 @@ Now we start the `main()` function of our project, which should look something l
 ```cpp	
 int main() {
 
-	...
+    ...
 
-	// We will write our code here
+    // We will write our code here
 
-	...
+    ...
 
     return 0;
 }
