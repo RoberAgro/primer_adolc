@@ -13,26 +13,27 @@ We will assume that we are building our C++ project using CMake. From wikipedia:
 
 In order to compile a C++ project using CMake from an IDE (such as CLion or Visual Studio) we just need to write a small `CMakeLists.txt` file. In our case, this file should look something like this:
 
+```cpp
+# Set CMake version
+cmake_minimum_required(VERSION 3.14)
 
-	# Set CMake version
-	cmake_minimum_required(VERSION 3.14)
+# Set project name
+set(project_name "adolc_minimum_working_example")
+project(${project_name})
 
-	# Set project name
-	set(project_name "adolc_minimum_working_example")
-	project(${project_name})
+# Set path to header files directories
+include_directories("$ENV{ADOLC_INCLUDE}")
 
-	# Set path to header files directories
-	include_directories("$ENV{ADOLC_INCLUDE}")
+# Set path to executable directories
+link_directories("$ENV{ADOLC_LIB}")
 
-	# Set path to executable directories
-	link_directories("$ENV{ADOLC_LIB}")
+# Add source files to compile to the project
+add_executable(${project_name} main.cpp)
 
-	# Add source files to compile to the project
-	add_executable(${project_name} main.cpp)
+# Add external libraries
+target_link_libraries(${project_name} -ladolc)
 
-	# Add external libraries
-	target_link_libraries(${project_name} -ladolc)
-
+```
 
 
 
@@ -55,84 +56,86 @@ The code snippet below is a minimum working example showing how to compute the d
 You should be able to compile this example straight ahead if the installation was successful.
 Check out the [detailed explanation of the minimum working example](./adolc_minimum_working_example_explanation.md) if you want to learn more about how ADOL-C works. 
 
+```cpp
+// Include libraries
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <adolc/adolc.h>
 
-	// Include libraries
-	#include <iostream>
-	#include <iomanip>
-	#include <cmath>
-	#include <adolc/adolc.h>
+// Define namespaces
+using namespace std;
 
-	// Define namespaces
-	using namespace std;
+// Define the function to be differentiated: f(x) = e^x
+adouble my_function(adouble x) {
+    adouble f = exp(x);
+    return f;
+};
 
-	// Define the function to be differentiated: f(x) = e^x
-	adouble my_function(adouble x) {
-	    adouble f = exp(x);
-	    return f;
-	};
-
-	int main() {
-
-
-	    // ----------------------------------------------------------------------- //
-	    // Initialize problem variables
-	    // ----------------------------------------------------------------------- //
-
-	    // Initialize passive variables
-	    int m = 1, n = 1;
-	    auto xp = new double[n]; xp[0] = 1.;    // Independent vector
-	    auto yp = new double[m]; yp[0] = 0.;    // Dependent vector
-
-	    // Initialize active variables
-	    auto x = new adouble[n];
-	    auto y = new adouble[m];
+int main() {
 
 
-	    // ----------------------------------------------------------------------- //
-	    // Active section for automatic differentiation
-	    // ----------------------------------------------------------------------- //
+    // ----------------------------------------------------------------------- //
+    // Initialize problem variables
+    // ----------------------------------------------------------------------- //
 
-	    // Set the tag for the Automatic Differentiation trace
-	    int tag = 0;
+    // Initialize passive variables
+    int m = 1, n = 1;
+    auto xp = new double[n]; xp[0] = 1.;    // Independent vector
+    auto yp = new double[m]; yp[0] = 0.;    // Dependent vector
 
-	    // Start tracing floating point operations
-	    trace_on(tag);  // Start of the active section
-
-	    // Assign independent variables
-	    x[0] <<= xp[0];
-
-	    // Evaluate the body of the differentiated code
-	    y[0] = my_function(x[0]);
-
-	    // Assign dependent variables
-	    y[0] >>= yp[0];
-
-	    trace_off();    // End of the active section
+    // Initialize active variables
+    auto x = new adouble[n];
+    auto y = new adouble[m];
 
 
-	    // ----------------------------------------------------------------------- //
-	    // Compute the first derivative (forward mode)
-	    // ----------------------------------------------------------------------- //
+    // ----------------------------------------------------------------------- //
+    // Active section for automatic differentiation
+    // ----------------------------------------------------------------------- //
 
-	    // Declare the tangent vector
-	    auto x1 = new double[n]; x1[0] = 1;
+    // Set the tag for the Automatic Differentiation trace
+    int tag = 0;
 
-	    // Declare the vector of first derivatives
-	    auto y1 = new double[m];
+    // Start tracing floating point operations
+    trace_on(tag);  // Start of the active section
 
-	    // Define a flag to prepare for a reverse automatic differentiation or not
-	    int keep = 0;
+    // Assign independent variables
+    x[0] <<= xp[0];
 
-	    // Compute the derivatives of f(x)
-	    fos_forward(tag, m, n, keep, xp, x1, yp, y1);
-	    cout << "Derivative computation in forward mode" << endl;
-	    cout << setw(20) << "AD derivative" << setw(25) << "Analytic derivative" << endl;
-	    cout.precision(8);
-	    cout.setf(ios::fixed);
-	    cout << setw(20) << y1[0] << setw(25) << my_function(xp[0]).value() << endl;
-	    cout << endl;
+    // Evaluate the body of the differentiated code
+    y[0] = my_function(x[0]);
 
-	    return 0;
+    // Assign dependent variables
+    y[0] >>= yp[0];
+
+    trace_off();    // End of the active section
 
 
-	}
+    // ----------------------------------------------------------------------- //
+    // Compute the first derivative (forward mode)
+    // ----------------------------------------------------------------------- //
+
+    // Declare the tangent vector
+    auto x1 = new double[n]; x1[0] = 1;
+
+    // Declare the vector of first derivatives
+    auto y1 = new double[m];
+
+    // Define a flag to prepare for a reverse automatic differentiation or not
+    int keep = 0;
+
+    // Compute the derivatives of f(x)
+    fos_forward(tag, m, n, keep, xp, x1, yp, y1);
+    cout << "Derivative computation in forward mode" << endl;
+    cout << setw(20) << "AD derivative" << setw(25) << "Analytic derivative" << endl;
+    cout.precision(8);
+    cout.setf(ios::fixed);
+    cout << setw(20) << y1[0] << setw(25) << my_function(xp[0]).value() << endl;
+    cout << endl;
+
+    return 0;
+
+
+}
+
+```
