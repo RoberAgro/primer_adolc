@@ -1,4 +1,6 @@
 adolc_demos_official/
+
+# CLion files
 .idea/
 
 # Prerequisites
