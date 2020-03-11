@@ -48,10 +48,10 @@ RM = /home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example
+CMAKE_SOURCE_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/cmake-build-debug
+CMAKE_BINARY_DIR = /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/cmake-build-debug/CMakeFiles /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example/cmake-build-debug/CMakeFiles /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named adolc_minimum_working_example
+# Target rules for targets named adolc_minimal_working_example
 
 # Build rule for target.
-adolc_minimum_working_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 adolc_minimum_working_example
-.PHONY : adolc_minimum_working_example
+adolc_minimal_working_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adolc_minimal_working_example
+.PHONY : adolc_minimal_working_example
 
 # fast build rule for target.
-adolc_minimum_working_example/fast:
-	$(MAKE) -f CMakeFiles/adolc_minimum_working_example.dir/build.make CMakeFiles/adolc_minimum_working_example.dir/build
-.PHONY : adolc_minimum_working_example/fast
+adolc_minimal_working_example/fast:
+	$(MAKE) -f CMakeFiles/adolc_minimal_working_example.dir/build.make CMakeFiles/adolc_minimal_working_example.dir/build
+.PHONY : adolc_minimal_working_example/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/adolc_minimum_working_example.dir/build.make CMakeFiles/adolc_minimum_working_example.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/adolc_minimal_working_example.dir/build.make CMakeFiles/adolc_minimal_working_example.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/adolc_minimum_working_example.dir/build.make CMakeFiles/adolc_minimum_working_example.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/adolc_minimal_working_example.dir/build.make CMakeFiles/adolc_minimal_working_example.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/adolc_minimum_working_example.dir/build.make CMakeFiles/adolc_minimum_working_example.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/adolc_minimal_working_example.dir/build.make CMakeFiles/adolc_minimal_working_example.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... adolc_minimum_working_example"
+	@echo "... adolc_minimal_working_example"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

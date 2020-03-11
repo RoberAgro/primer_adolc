@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimum_working_example/main.cpp
+/home/robertoa/my_GIT/primer_adolc/adolc_demos/adolc_minimal_working_example/main.cpp
 iostream
 -
 iomanip
