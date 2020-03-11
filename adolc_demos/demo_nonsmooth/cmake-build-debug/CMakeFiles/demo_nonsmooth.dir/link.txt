@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/demo_nonsmooth.dir/main.cpp.o  -o demo_nonsmooth 
