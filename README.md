@@ -14,9 +14,9 @@ In short, ADOL-C is a powerful C++ library that allows to compute first and high
 
 <p style="margin-bottom:1cm;"> </p>
 <p align="center">
-        <img src="docs/figures/derivative_def.svg" height="250" width="500"/>
+        <img src="docs/images/derivative_def.svg" height="250" width="500"/>
         &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="docs/figures/cpp_logo.svg" height="250" width="250"/>
+        <img src="docs/images/cpp_logo.svg" height="250" width="250"/>
 </p>
 <p style="margin-bottom:1cm;"> </p>
 
